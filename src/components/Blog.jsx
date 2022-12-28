@@ -44,16 +44,15 @@ function Blog() {
 
     return (
         <div className="blog_container">
-            <div>Blog</div>
             <div className="navbar">
-                <Link to='/blog'>
+                <Link className="nav" to='/blog'>
                     <div className="home nav">Home</div>
                 </Link>
-                <Link to='/create'>
+                <Link className="nav" to='/create'>
                     <div className="create nav">Create</div>
                 </Link>
 
-                <div className="logout nav" onClick={handleLogout}>Logout</div>
+                <div className="logout" onClick={handleLogout}>Logout</div>
 
             </div>
 
