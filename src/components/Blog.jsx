@@ -20,7 +20,7 @@ function Blog() {
     useEffect(() => {
         
         async function fetchData(e) {
-            await Axios('http://localhost:8000/blog', {
+            await Axios('https://blog-das.onrender.com/blog', {
             method : 'get',
             headers : {
                 authorization : token
