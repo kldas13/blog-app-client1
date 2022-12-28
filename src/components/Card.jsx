@@ -14,12 +14,11 @@ function Card({post}) {
             
             <div>Date:- {post.date}</div>
            
-            <div>Time:- {post.time}</div>
         </section>
         <section className="details item">
             <div>Description:- {post.description}</div>
         </section>
-        <section className="details item">
+        <section className="details">
             <img src={`${post.image}`} alt="post" />
         </section>
     </div>
