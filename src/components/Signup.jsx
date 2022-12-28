@@ -13,7 +13,7 @@ function Signup() {
 
     const handleSignup = async (e) => {
         e.preventDefault();
-        await Axios('http://localhost:8000/signup', {
+        await Axios('https://blog-das.onrender.com/signup', {
             method : 'post',
             headers : {
                 "Content-Type" : "application/json"
