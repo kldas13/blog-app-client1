@@ -1,0 +1,21 @@
+.card_container {
+    
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    margin-left: 38%;
+}
+
+img {
+    width: 270px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    margin: 5px;
+    display: block;
+}
