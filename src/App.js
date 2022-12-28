@@ -11,7 +11,7 @@ function App() {
   // const navigate = Navigate();
   return (
     <div className="App">
-      Welcome
+      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQz9FW3cNHa4qnoZ7iF2XiKzfGoAvB9ipr9_BQ0FI0bw&s' alt='logo' style={{position:'fixed', left:'7px', top:'1px',width:'80px'}}/>
       <BrowserRouter>
       <Routes>
         <Route path='/' element = {<Login/>}/>
