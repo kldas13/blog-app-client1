@@ -16,7 +16,7 @@ function Create() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await Axios('http://localhost:8000/blog/upload', {
+        await Axios('https://blog-das.onrender.com/blog/upload', {
             method: 'post',
             headers: {
                 "Content-Type": "application/json",
