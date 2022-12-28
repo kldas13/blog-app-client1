@@ -42,11 +42,11 @@ function Create() {
     }
 
     return (
-        <div className="input_fields">
-            <input type="text" name="Author" id="Author" placeholder='Author' onChange={e => setAuthor(e.target.value)} />
-            <input type="text" name="Title" id="Title" placeholder='Title' onChange={e => setTitle(e.target.value)} />
-            <input type="text" name="Image" id="Image" placeholder='Paste Image Url' onChange={e => setImage(e.target.value)} />
-            <input type="text" name="Description" id="Description" placeholder='Description' onChange={e => setDescription(e.target.value)} />
+        <div className="input_fields" style={{backgroundColor: "lightblue", height:'250px', width: '200px', marginLeft: '43%', marginTop:'5%', borderRadius:'5px'}}>
+            <input type="text" name="Author" id="Author" placeholder='Author' onChange={e => setAuthor(e.target.value)} style={{margin:'10px'}}/>
+            <input type="text" name="Title" id="Title" placeholder='Title' onChange={e => setTitle(e.target.value)} style={{margin:'10px'}} />
+            <input type="text" name="Image" id="Image" placeholder='Paste Image Url' onChange={e => setImage(e.target.value)} style={{margin:'10px'}}/>
+            <input type="text" name="Description" id="Description" placeholder='Description' onChange={e => setDescription(e.target.value)} style={{margin:'10px',paddingBottom:'40px'}} />
             <button className="submit" onClick={handleSubmit}>Submit</button>
 
         </div>
